@@ -1,0 +1,41 @@
+.crop {
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+  cursor: move;
+  width: 50vw;
+  min-width: 30vw;
+  height: 30vw;
+  min-height: 10vw;
+  @media (max-width: 608px) {
+    width: 30%;
+  }
+}
+
+.root {
+  width: 130vw;
+  min-width: 80vw;
+  height: 30vw;
+  min-height: 10vw;
+}
+
+.icon {
+  color: #fff;
+  z-index: 2;
+}
+
+.icons {
+  position: relative;
+  top: 40px;
+  left: 290px;
+  width: 100%;
+  @media (max-width: 608px) {
+    display: none;
+  }
+}
+.cancel {
+  display: none;
+  @media (max-width: 608px) {
+    display: flex;
+  }
+}
